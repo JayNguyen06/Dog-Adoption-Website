@@ -1,0 +1,89 @@
+body{
+                background: rgb(255, 255, 255);
+                color: rgb(50, 89, 55);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+
+            header{
+                background: rgb(154, 183, 131);
+                padding: 20px 40px 10px 40px ;
+            }
+            header.contactinfo{
+                background: rgb(155, 193, 161);
+                padding: 20px 40px 10px 40px ;
+            }
+            section{
+                height: 500px;
+                background:white;
+                color: black;
+                display: flex;
+                flex-direction: row;
+                padding: 20px;
+                gap: 20px;
+            }
+            footer{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background: rgb(154, 183, 131);
+                padding: 10px 10px;
+                gap:20px;
+            }
+            section.dog-sectionA div{
+                background: #e2cb99;
+                display: inline-block;
+                margin: auto;
+                padding: 20px;
+            }
+            section.dog-sectionB div{
+                background: #a3c8e6;
+                display: inline-block;
+                margin: auto;
+                padding: 20px;
+            }
+            section.contactinfo div{
+                background: #a3d9e1;
+                display: inline-block;
+                margin: auto;
+            }
+
+            section.locations div{
+                background: #92b68b;
+                display: inline-block;
+                align-items: center;
+                margin: auto;
+            }
+
+            section.dog-description p{
+                width: 100%;
+                height: 100px;;
+                background: rgb(154, 183, 131);
+                display: block;
+                padding: 20px;
+                box-sizing: border-box;
+            }
+
+            section.dog-description{
+                display: block;
+                padding: 20px;
+                height:auto;
+            }
+            ul{
+                margin:0;
+                padding:0;
+                list-style-type: none;
+            }
+            li{
+                display: inline-block;
+                margin: 0 20px 0 0;
+            }
+            figcaption{
+                width: 200px;
+                font-size: small;
+                text-align: left;
+                padding: 5px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }

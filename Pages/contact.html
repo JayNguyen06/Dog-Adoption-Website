@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dogs for adoption.</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="../myproject.html"> Home</a></li>
+                    <li><a href="locations.html"> Location</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Contact Us</h1>
+        </header>
+        <section class="contactinfo">
+        <div>
+            <img src="https://i.pinimg.com/1200x/5b/a0/c9/5ba0c9b1dd87ca1793b2b4a718916a72.jpg" alt="Contact Us" width="500" height="400">
+        </div>
+        <div>
+            <p>Email: info@dogsforadoption.com</p>
+            <p>Phone for general enquiries: (999) 555-1235</p>
+            <p>Phone for appointment scheduling: (999) 555-6789</p>
+            <p>Address: 123 Main Street, New York, NY 10000</p>
+        </div>
+        </section>
+        <header class = "contactinfo">
+            <h2>We look forward to hearing from you! Leave your name, email address, phone number as well as the name of the animal to be contacted back for additional information.</h2>
+            <form onsubmit="return submission()">
+                <label for="Full name">Full Name:</label><br>
+                <input type="text" id="Full name" name="Full name" placeholder = "Ex: Brian Smith"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder = "Ex: brian.smith@example.com"><br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder = "Ex: (123) 456-7890"><br>
+                <label for="animal">Animal of Interest:</label><br>
+                <input type="text" id="animal" name="animal" placeholder = "Ex: Snowy"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </header>
+        <footer>
+            <span>Copyright 2026. All rights reserved.</span>
+            <span>Contact us at info@dogsforadoption.com to schedule an appointment.</span>
+            <span>For more information, <a href="../pages/contact.html">click here</a> to reach out to us.</span>
+        </footer>
+        <script src="../scripts/main.js"></script>
+    </body>
+</html>
